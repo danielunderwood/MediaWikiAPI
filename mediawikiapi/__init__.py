@@ -6,4 +6,4 @@ if not (sys.argv[0] in ['pip', 'setup.py'] or (len(sys.argv) > 1 and sys.argv[1]
     from .exceptions import *
     from .language import *
 
-__version__ = "1.1.2"
+__version__ = "1.1.3dev1"

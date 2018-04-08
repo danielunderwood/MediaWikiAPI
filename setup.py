@@ -11,9 +11,9 @@ def local_file(file):
   )
 
 install_reqs = [
-  line.strip()
-  for line in local_file('requirements.txt').readlines()
-  if line.strip() != ''
+    'beautifulsoup4==4.5.3',
+    'requests>=2.0.0,<3.0.0',
+    'sphinx-rtd-theme==0.2.4'
 ]
 
 try:
